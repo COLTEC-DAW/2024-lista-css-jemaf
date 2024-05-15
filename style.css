@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(17, 14, 14);
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 1em;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.summary {
+    text-align: right;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+}
+
+/* T3 */
+.page-wrapper {
+    max-width: 1280px;
+    width: 80%;
+    margin: auto;
+}
+
+.intro {
+    height: 550px;
+}
+
+#design-archives {
+    display: none;
+}
+
+h1, h2 {
+    display: inline;
+}
+
+h1 {
+    margin-right: 1em;;
+}
+
+aside ul {
+ list-style: none;   
+}
+
+aside li {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+footer {
+    margin: 4%;
+}
+
+footer a {
+    border: 2px solid;
+    padding: 0.5em;
+}
+
+/* t4 */
+
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    padding-right: 2%;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+#design-archives {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding: 0 2%;
+}
+
+/* t5 */
+
+a {
+    color:red;
+    font-weight: bold;
+}
+
+a:hover {
+    color: green;
+}
+
+.main p:first-of-type::first-letter {
+    font-size: 300%;
+}
+
+.design-selection li {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: red;
+}
+
+.design-selection li:last-child {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: red;
+
+}
+
+/* t6 */
+
+.main footer {
+    display:flex;
+    justify-content: space-between;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid blue;
+    border-bottom-width: 1px;
+}
+
+.benefits h3 {
+    align-self: center;
+    flex-basis: 30%;
+}
+
+.benefits p {
+    flex-basis: 70%;
+}
+
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-top-width: 1px;
+    border-top: 1px solid blue;
+}
+
+.participation > *{
+    flex-basis: 50%;
+}
+
+.participation > h3 {
+    align-self: center;
+}
